@@ -1,0 +1,32 @@
+.user_page {
+    width: 100%;
+    padding: 24px;
+}
+.avatar {
+    width: 200px;
+    height: 340px;
+    float: left;
+    padding: 20px;
+    background: white;
+}
+.avatar img {
+    width: 100%;
+    height: 100%;
+}
+
+.user_info {
+    width: 50%;
+    background: white;
+    padding: 30px;
+}
+
+.user_info h1 {
+    text-align: start;
+    border-bottom: 1px solid rgb(9, 23, 54);
+    margin-top: 0;
+    font-size: 24px;
+}
+
+.user_info h4 {
+    font-size: 18px;
+}

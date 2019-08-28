@@ -1,0 +1,27 @@
+aside {
+    background: rgb(48, 82, 161);
+}
+ul {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: 100vh;
+}
+li {
+    list-style: none;
+    width: 100%;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    text-align: center;
+    padding: 18px 36px;
+}
+li:last-child {
+    position: absolute;
+    bottom: 0;
+}
+.activelink {
+    background: rgb(16, 39, 94)
+}

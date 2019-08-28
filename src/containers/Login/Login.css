@@ -1,0 +1,43 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    color: rgb(9, 23, 54);
+}
+.login p {
+    height: 40px;
+    margin: 0;
+    line-height: 40px;
+}
+.login p:first-child {
+    margin-bottom: 10px;
+}
+.login p input {
+    height: 40px;
+    padding: 4px;
+    box-sizing: border-box;
+    float: right;
+    margin-left: 14px;
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.login button {
+    background: rgb(9, 23, 54);
+    transition: background 1s ease;
+    color: #fff;
+    margin-top: 50px;
+    border: none;
+    border-radius: 4px;
+    font-size: 24px;
+    padding: 10px 0;
+    cursor: pointer;
+}
+.login button:hover {
+    background: #3052A1;
+    transition: background 1s ease;
+}
+h1 {
+    font-size: 40px;
+    text-align: center;
+    color: rgb(9, 23, 54);
+    margin-bottom: 30px;
+}
